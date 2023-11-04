@@ -4,7 +4,7 @@
     let policies = data.policies
     async function fieldOrder(field, order){
         const sortedPolicies = await fetch(
-            "http://ims.insiderserver.tk?field="+field+"&order="+order
+            "https://ims.insiderserver.tk?field="+field+"&order="+order
         )
         policies = await sortedPolicies.json()
     }
