@@ -15,7 +15,7 @@
             dialog.setAttribute("open", "open")
         else{
             const comparedPolicies = await fetch(
-                "https://ims.insiderserver.tk/compare",
+                "https://ims-backend-lthb.onrender.com/compare",
                 {
                     headers: {
                         'Content-type': 'application/json'

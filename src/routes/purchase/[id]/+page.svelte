@@ -13,7 +13,7 @@
             "id": data.id
         }
         const getemi = await fetch(
-            'https://ims.insiderserver.tk/underwriting',
+            'https://ims-backend-lthb.onrender.com/underwriting',
             {
                 headers: {
                     'Content-Type':'application/json'
