@@ -11,8 +11,9 @@
 
 <style>
     div{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 1.5rem;
     }
 </style>

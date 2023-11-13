@@ -11,15 +11,24 @@
 
 <article>
     <header>
-        <img src="codi.jpg" alt="policy placeholder">
+        <a href="/{policy.policyID}/details">
+            <img src="codi.jpg" alt="policy placeholder">
+        </a>
     </header>
-    <h1>{policy.policyName}</h1>
+    <h3>{policy.policyName}</h3>
     <footer>
         <h3>{policy.policyReturn}</h3>
         <h4>{policy.policyInvestment}</h4>
     </footer>
     <div class="grid">
         <button on:click={addTOCompare}>Compare</button>
-        <a href="/purchase/{policy.policyID}"><button>Purchase</button></a>
+        <a href="/{policy.policyID}/purchase"><button>Purchase</button></a>
     </div>
 </article>
+
+<style>
+    img{
+        width: 250px;
+        height: 250px;
+    }
+</style>
